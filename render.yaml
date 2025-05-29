@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: artwork-generator-api
+    env: node
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: FRONTEND_URL
+        value: "https://artwork-generator.netlify.app"  # Vei primi URL-ul exact după deployment
+    healthCheckPath: / 
