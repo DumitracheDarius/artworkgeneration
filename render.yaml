@@ -6,5 +6,5 @@ services:
     startCommand: node server.js
     envVars:
       - key: FRONTEND_URL
-        value: "https://artwork-generator.netlify.app"  # Vei primi URL-ul exact după deployment
+        value: "https://artworkgen.netlify.app"
     healthCheckPath: / 

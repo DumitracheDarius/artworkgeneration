@@ -3,7 +3,7 @@
   publish = "dist"
 
 [build.environment]
-  VITE_API_URL = "https://artwork-generator-api.onrender.com"
+  VITE_API_URL = "https://artworkgeneration.onrender.com"
 
 [[redirects]]
   from = "/*"

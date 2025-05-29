@@ -14,7 +14,7 @@ const app = express();
 const upload = multer({ dest: 'uploads/' });
 
 app.use(cors({
-  origin: process.env.FRONTEND_URL || 'http://localhost:5173',
+  origin: process.env.FRONTEND_URL || 'https://artworkgen.netlify.app',
   methods: ['POST', 'GET'],
   allowedHeaders: ['Content-Type']
 }));
